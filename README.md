@@ -1,11 +1,18 @@
 pthread + chroot + setxid
 =========================
 
+Clone
+-----
+```bash
+$ git clone --recursive https://github.com/Lance0312/musl-pthread-chroot-setxid
+```
+
 Compile with musl
 -----------------
 
 ```bash
-$ make LIBCDIR=/path/to/musl/lib
+$ ./build-musl.sh
+$ make
 ```
 
 Run
